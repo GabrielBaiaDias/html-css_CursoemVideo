@@ -6,7 +6,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 <a href="https://gabrielbaiadias.github.io/html-css/">Executar o Exercicio</a>
 
 <h1>Exercícios do Curso</h1>
-<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex-001/"><p> Execicio 01 -</p></a>
+<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex-001/"><p>- Execicio 01 -</p></a>
 <a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex002/"><p> Execicio 02 -</p></a>
 <a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex003/"><p> Execicio 03 -</p></a>
 <a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex004/"><p> Execicio 04 -</p></a>
