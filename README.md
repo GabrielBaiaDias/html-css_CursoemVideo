@@ -21,6 +21,3 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 <a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex013/" target="_blank"> Execicio 13 -</a>
 <a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex014/" target="_blank"> Execicio 14 -</a>
 <a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex015/" target="_blank"> Execicio 15 -></a><br>
-<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex016/" target="_blank"> Execicio 16 -</a>
-<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex017/" target="_blank"> Execicio 17 -</a>
-<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex018/" target="_blank"> Execicio 18 -</a>
