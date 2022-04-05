@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #baf6ff;
+    --cor2: #58d1d3;
+    --cor3: #439fad;
+    --cor4: #176e78;
+    --cor5: #004244;
+
+    --fonte-Android: 'android';
+    --fonte-Muse: 'muse';
+    --fonte-Alien: 'alien';
+    --fonte-Padrao: arial, verdana, helvetica, sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'muse';
+    src: url('fonts/E-Muse-Bold.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'alien';
+    src: url('fonts/Alien\ Android.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'android';
+    src: url('fonts/idroid.otf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}    
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor2);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--cor2); 
+    border-radius: 10px;
+  }
+
+body{
+    font-family: var(--fonte-Padrao);
+    background-color: var(--cor1);
+    text-align: justify;
+}
+
+header{
+    margin: auto;
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor3));
+    min-height: 150px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+header h1{
+    font-family: var(--fonte-Alien);
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+header p{
+    font-family: var(--fonte-Padrao);
+    max-width: 600px;
+    font-size: 1.2em;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav{
+    background-color: transparent;
+    padding: 10px;
+    text-shadow: 0px 7px 7px black;
+}
+
+nav a{
+    transition-duration: 0.4s;
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    text-shadow: 0px 7px 7px black;
+}
+
+nav > a:hover{
+    background-color: var(--cor4);
+    color: var(--cor5);
+    text-shadow: none;
+}
+
+main{
+    min-width: 200px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    text-decoration: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main h1{
+    font-family: var(--fonte-Android);
+    margin-top: 8px;
+    text-align: center;
+    background-image: linear-gradient(to right, transparent,  var(--cor1), var(--cor2), var(--cor1), transparent);
+}
+
+main h2{
+    font-family: var(--fonte-Android);
+    padding-top: 8px;
+}
+
+main p{
+    margin: 15px 0px;
+    font-size: 1.1em;
+    text-indent: 30px;
+    line-height: 1.4;
+
+}
+
+main img{
+    width: 100%;
+}
+
+.px-wide  { letter-spacing: 1px; }
+.px-wide2  { letter-spacing: 1px; }
+
+main img.small{
+    width: 350px;
+    margin: auto;
+    display: block;
+}
+
+div.video{
+    background-color: var(--cor5);
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0px 20px 0px 20px;
+    border: 8px solid var(--cor5);
+}
+
+aside h3{
+    background-color: var(--cor4);
+    font-family: var(--fonte-Muse);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: normal;
+    padding: 15px;
+    margin: -10px;
+}
+
+aside p{
+    margin-left: 10px;
+    padding: 0x 4px 0px 0px ;
+}
+
+aside li{
+    margin-left: 10px;
+    padding: 0px 4px 0px 0px ;
+
+}
+
+aside ul{
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+    border-radius: 5px;
+    background-color: rgba(126, 240, 255, 0.753);
+    padding: 10px;
+}
+
+footer{
+    background-color: var(--cor4);
+    text-align: center;
+    color: white;
+    padding: 4px 0px 4px 0px;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        @font-face {
+            font-family: 'babapro';
+            src: url('fonts/BabaPro-Bold.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        h1 {
+            font-family: 'babapro';
+            font-size: 2em;
+            text-align: center;
+        }
+
+        li {
+            border: 1px solid black;
+            padding: 2px;
+            margin-right: 350px;
+            background-color: lightgray;
+            width: 300px;
+        }
+
+        li:hover {
+            background-color: rgb(189, 189, 189);
+        }
+
+        li>p {
+            display: none;
+        }
+
+        #d1:hover>p,
+        #d2:hover>p,
+        #d3:hover>p,
+        #d4:hover>p {
+            display: block;
+            width: 98%;
+        }
+
+        div {
+            width: 300px;
+        }
+
+        div#bola {
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            border-radius: 50%;
+        }
+
+        .lista-d1,
+        .lista-d2,
+        .lista-d3,
+        .lista-d4 {
+            background-color: gray;
+            padding-right: 0px;
+            margin: 0px;
+            padding: 3px;
+        }
+
+        .lista-d1>a,
+        .lista-d2>a,
+        .lista-d3>a,
+        .lista-d4>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .logotipo{
+
+        }
+
+        img{
+            width:20%;
+        }
+
+        h1{
+            width: 70%;
+        }
+    </style>
+    <title>Testes solo</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <div class="logotipo">
+                <img src="fotos/foto-logo_da_apple.png" alt="">
+                <h1>Iphone</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quas ullam ducimus explicabo quibusdam
+                maiores recusandae veniam culpa, tempore assumenda porro similique, quidem eius! Porro rerum amet cum
+                natus dicta.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt omnis tenetur non
+                iste quisquam consequatur at sint perferendis, laboriosam eius temporibus, accusantium amet quos
+                assumenda. Accusantium adipisci sed beatae.Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                laudantium inventore quas esse? Eius amet earum labore rem voluptatem eum non, dolorem numquam
+                voluptatum suscipit quis repellat, eveniet, sapiente officia.</p>
+        </section>
+    </main>
+    <h2>Saiba mais</h2>
+    <ul type="none">
+        <li id="d1">Historia do Iphone
+            <p class="lista-d1"><a href="#">Parte01</a></p>
+            <p class="lista-d1"><a href="#">Parte02</a></p>
+            <p class="lista-d1"><a href="#">Parte03</a></p>
+        </li>
+        <li id="d2">Quem inventou
+            <p class="lista-d2"><a href="#">Parte01</a></p>
+            <p class="lista-d2"><a href="#">Parte02</a></p>
+            <p class="lista-d2"><a href="#">Parte03</a></p>
+        </li>
+        <li id="d3">Como surgiu
+            <p class="lista-d3"><a href="#">Parte01</a></p>
+            <p class="lista-d3"><a href="#">Parte02</a></p>
+            <p class="lista-d3"><a href="#">Parte03</a></p>
+        </li>
+        <li id="d4">Coisas
+            <p class="lista-d4"><a href="#">Parte01</a></p>
+            <p class="lista-d4"><a href="#">Parte02</a></p>
+            <p class="lista-d4"><a href="#">Parte03</a></p>
+        </li>
+        </div>
+    </ul>
+    <div id="bola"></div>
+</body>
+
+</html>
