@@ -1,5 +1,11 @@
 # html-css
 
-<h1>Estou mudando o readme por um teste!</h1>
+<style>
+    body {
+        text-align: center;
+    }
+</style>
 
-<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex025/" target="_blank">form003.html</a><br>
+<body>
+<h1>Estou mudando o readme por um teste!</h1>
+</body>
