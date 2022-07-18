@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="inota">Nota:</label>
+            <input type="number" name="nota" id="inota" min="0" max="10" placeholder="0 a 10" step="0.1" value="5" required>
+        </p>
+        <p>
+            <label for="imes">Período Letivo:</label>
+            <input style="width: 140px;" type="month" name="mes" value="2022-07" id="imes">
+        </p>
+        <p>
+            <label for="idata">Data da Prova:</label>
+            <input type="date" name="data" value="2022-07-18" id="idata">
+        </p>
+        <p>
+            <label for="ihora">Horário da Prova:</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
