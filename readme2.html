@@ -13,16 +13,22 @@
     }
 
     .pastasMaisArquivos {
-        width: 160px;
+        width: 190px;
         background-color: rgba(176, 176, 176, 0.396);
         padding: 10px;
         padding-top: 0px;
         border-radius: 5px;
+        margin: 5px 0px;
         border: 2px solid black;
     }
 
     .pastasMaisArquivos > h2 {
-        margin-top: 5px;
+        margin: -1px -11px;
+        padding: 5px 3px;
+        margin-bottom: 5px;
+        width: 197px;
+        padding-left: 12px;
+        background-color: rgba(162, 162, 162, 0.515);
         font-family: monospace;
     }
 </style>
@@ -37,8 +43,7 @@
     <a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex-001/">1</a>
     <div id="exer">
     </div>
-    <div>
-        <h2>pasta do ex007</h2>
+    <div class='pastasMaisArquivos'><h2>pasta do ex000</h2>
     </div>
 </body>
 
@@ -60,7 +65,7 @@
         ex.innerHTML += `<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex00${cont}">${cont}</a><br/>`;
 
         if (cont == 6) {
-            ex.innerHTML += "<div class='pastasMaisArquivos' id='a'><h2>pasta do ex007</h2><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex007/html4.html'>7</a>- (html4.html)<br/><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex007/html5.html'>7</a>- (html5.html)<br/></div>"
+            ex.innerHTML += "<div class='pastasMaisArquivos' id='a'><h2>pasta ex007</h2><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex007/html4.html'>7</a>- (html4.html)<br/><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex007/html5.html'>7</a>- (html5.html)<br/></div>"
         }
     }
 
@@ -73,25 +78,21 @@
         ex.innerHTML += `<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex0${cont}">${cont}</a><br/>`
 
         if (cont == 15) {
-            ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex016/cor01.html'>16</a>- (cor01.html)<br/><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex016/cor02.html'>16</a>- (cor02.html)<br/><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex016/cor03.html'>16</a>- (cor03.html)<br/>"
+            ex.innerHTML += "<div class='pastasMaisArquivos'><h2>pasta ex016</h2><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex016/cor01.html'>16</a>- (cor01.html)<br/><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex016/cor02.html'>16</a>- (cor02.html)<br/><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex016/cor03.html'>16</a>- (cor03.html)<br/>"
         }
     }
 
-    ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex017/font01.html'>17</a>- (font01.html)<br/>"
-    ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex017/font02.html'>17</a>- (font02.html)<br/>"
+    ex.innerHTML += "<div class='pastasMaisArquivos'><h2>pasta ex017</h2><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex017/font01.html'>17</a>- (font01.html)<br/><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex017/font02.html'>17</a>- (font02.html)<br/>"
 
-    ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex018/fonte01.html'>18</a>- (fonte01.html)<br/>"
-    ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex018/fonte02.html'>18</a>- (fonte02.html)<br/>"
+    ex.innerHTML += "<div class='pastasMaisArquivos'><h2>pasta ex018</h2><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex018/fonte01.html'>18</a>- (fonte01.html)<br/><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex018/fonte02.html'>18</a>- (fonte02.html)<br/>"
 
     ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex019/seletor01.html'>19</a><br/>"
 
-    ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex020/hover.html'>20</a>- (hover.html)<br/>"
-    ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex020/links.html'>20</a>- (links.html)<br/>"
-    ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex020/pseudoclasse.html'>20</a>- (pseudoclasse.html)<br/>"
+    ex.innerHTML += "<div class='pastasMaisArquivos'><h2>pasta ex020</h2><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex020/hover.html'>20</a>- (hover.html)<br/><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex020/links.html'>20</a>- (links.html)<br/><a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex020/pseudoclasse.html'>20</a>- (pseudoclasse.html)<br/>"
 
 
     for (var cont = 1; cont < 4; cont++) {
-        ex.innerHTML += `<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex021/caixa0${cont}.html">21</a>- (caixa0${cont}.html)<br/>`
+        ex.innerHTML += `<div class='pastasMaisArquivos'><h2>pasta ex021</h2><a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex021/caixa0${cont}.html">21</a>- (caixa0${cont}.html)<br/>`
 
     }
 
