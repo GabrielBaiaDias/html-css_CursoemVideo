@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section#internalReadme {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <section id="internalReadme">
+        <h1>Bem vindo ao meu readme</h1>
+        <h2>Exercícios</h2>
+
+
+    </section>
+    <a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex-001/">1</a>
+    <div id="exer">
+    </div>
+</body>
+
+</html>
+<script>
+    debugger
+
+    var ex = document.getElementById('exer');
+
+    for (var cont = 2; cont < 5; cont++) {
+        ex.innerHTML += `<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex00${cont}">${cont}</a><br/>`;
+
+        if (cont == 4) {
+            ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex005/'>5</a>- (pasta vazia)<br/>"
+        }
+    }
+
+    for (var cont = 6; cont < 7; cont++) {
+        ex.innerHTML += `<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex00${cont}">${cont}</a><br/>`;
+
+        if (cont == 6) {
+            ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex007/html4.html'>7</a>- (html4.html)<br/>"
+            ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex007/html5.html'>7</a>- (html5.html)<br/>"
+        }
+    }
+
+    for (var cont = 8; cont < 10; cont++) {
+        ex.innerHTML += `<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex00${cont}">${cont}</a><br/>`
+
+    }
+
+    for (var cont = 9; cont < 21; cont++) {
+        ex.innerHTML += `<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex0${cont}">${cont}</a><br/>`
+
+    }
+
+</script>
