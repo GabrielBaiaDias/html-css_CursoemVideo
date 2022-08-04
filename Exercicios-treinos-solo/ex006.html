@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(65, 65, 65);
+    }
+
+    #ulMain {
+        padding-right: 0px;
+        margin: 0px;
+        padding: 3px;
+    }
+
+    #li-1,
+    #li-2,
+    #li-3,
+    #li-4,
+    #li-5 {
+        background-color: gray;
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom: 4px;
+        font-size: 1.2em;
+        width: 235px;
+        padding: 1px;
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+    }
+
+    #li-1>p,
+    #li-2>p,
+    #li-3>p,
+    #li-4>p,
+    #li-5>p {
+        display: none;
+    }
+
+    #li-1:hover>p,
+    #li-2:hover>p,
+    #li-3:hover>p,
+    #li-4:hover>p,
+    #li-5:hover>p {
+        display: block;
+    }
+</style>
+
+<body>
+    <main>
+        <ul id="ulMain" type="none">
+            <li onclick="ocultar_mostrar()" id="li-1">Título 01
+                <p><a class="pLista-1" href="#">opção1</a></p>
+                <p><a class="pLista-1" href="#">opção2</a></p>
+                <p><a class="pLista-1" href="#">opção3</a></p>
+            </li>
+            <li id="li-2">Título 02
+                <p><a class="pLista-2" href="#">opção1</a></p>
+                <p><a class="pLista-2" href="#">opção2</a></p>
+                <p><a class="pLista-2" href="#">opção3</a></p>
+            </li>
+            <li id="li-3">Título 03
+                <p><a class="pLista-3" href="#">opção1</a></p>
+                <p><a class="pLista-3" href="#">opção2</a></p>
+                <p><a class="pLista-3" href="#">opção3</a></p>
+            </li>
+            <li id="li-4">Título 04
+                <p><a class="pLista-4" href="#">opção1</a></p>
+                <p><a class="pLista-4" href="#">opção2</a></p>
+                <p><a class="pLista-4" href="#">opção3</a></p>
+            </li>
+            <li id="li-5">Título 05
+                <p><a class="pLista-5" href="#">opção1</a></p>
+                <p><a class="pLista-5" href="#">opção2</a></p>
+                <p><a class="pLista-5" href="#">opção3</a></p>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
+
+<script>
+
+    function ocultar_mostrar() {
+        var atual = true
+
+        var li = document.getElementsByClassName('pLista-1')
+
+        li.style.display = "none"
+    }
+</script>
