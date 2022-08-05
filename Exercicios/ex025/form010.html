@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Teste de formulario</h1>
+    <form autocomplete="on" action="cadastro.html" method="get">
+        <p>
+            <label for="iano">Em que ano voce nasceu?</label>
+            <input type="number" name="ano" id="iano" oninput="calcIdade()" min="1900" max="2022">
+        </p>
+        <p>
+            <label for="iidade">Idade:</label>
+            <output id="iidade">
+                0
+            </output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+
+</html>
+<script>
+    debugger
+    function calcIdade() {
+        var atual = new Date().getFullYear()
+
+       iidade.innerHTML = atual - iano.value
+    }
+
+</script>
