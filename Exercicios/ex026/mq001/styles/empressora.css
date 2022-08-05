@@ -1,0 +1,39 @@
+/* ==---= Estilo para a impressão =---== */
+
+* {
+    margin: 4px;
+    padding: 4px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.2em;
+}
+
+html > h2 {
+    font-size: 1.1em;
+}
+
+header h1 {
+    text-align: center;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    width: 100vw;
+    text-indent: 20px;
+}
+
+article h2 {
+    font-size: 1.5em;
+    text-indent: 0px;
+    line-height: 23px;
+    text-align: center;
+}
+
+article::after {
+    content: 'Esse artigo foi impresso através do site www.cursoemvideo.com';
+}
