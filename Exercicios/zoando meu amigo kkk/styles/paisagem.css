@@ -1,0 +1,14 @@
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfafEBXRoCCc6QbZLhWxnm2scqbAS8Cr0_mw&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    visibility: hidden;
+}
+
+body::after {
+    content: "MANO, TU É GAY?";
+}
