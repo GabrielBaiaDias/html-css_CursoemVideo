@@ -5,10 +5,11 @@ body {
     background-repeat: no-repeat;
 }
 
-main {
-    visibility: hidden;
+main#aparece {
+    display: block;
+    font-size: 3em;
 }
 
-body::after {
-    content: "MANO, TU É GAY?";
+main#normal {
+    display: none;
 }
