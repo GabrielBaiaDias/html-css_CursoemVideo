@@ -90,6 +90,7 @@
     for (var cont = 1; cont < 4; cont++) {
         ex.innerHTML += `<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex025/form00${cont}.html">21</a>- (form00${cont}.html)<br/>`
     }
+    ex.innerHTML += `<a href="https://gabrielbaiadias.github.io/html-css/Exercicios/ex026/index.html">26</a>- (index.html)<br/>`
     // ex.innerHTML += "<a href='https://gabrielbaiadias.github.io/html-css/Exercicios/ex022/.html'>22</a>- (.html)<br/>"
 
 </script>
